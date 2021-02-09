@@ -1,0 +1,23 @@
+﻿<process name="mail automation" version="1.0" bpversion="6.10.0.30674" narrative="na&#xD;&#xA;" byrefcollection="true" preferredid="eacfd9a3-b29b-4f52-a31e-317c22abc50c">
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <stage stageid="74340f89-c9c1-4c86-b9bd-519ceff40471" name="Start" type="Start">
+    <display x="15" y="-105" />
+  </stage>
+  <stage stageid="1a4826f7-f50d-48fa-9d24-56672a83bc06" name="End" type="End">
+    <display x="15" y="90" />
+  </stage>
+  <stage stageid="eb4d575b-03c5-4698-9538-08cee0cd74d3" name="Stage1" type="ProcessInfo">
+    <display x="-195" y="-105" w="150" h="90" />
+  </stage>
+  <stage stageid="8755f42b-7d38-4768-a296-e8f2c8eaa967" name="Action1" type="Action">
+    <loginhibit onsuccess="true" />
+    <display x="15" y="-45" />
+    <resource object="" action="" />
+  </stage>
+</process>
